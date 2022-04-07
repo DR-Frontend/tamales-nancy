@@ -1,8 +1,25 @@
 /* MENU ===== */
-nav{
-   border: 1px solid white;
+.menu__img{
+   height: 100px;
 }
 
 
 
 /* INTRO ===== */
+.intro__image{
+   display: none;
+}
+@media(min-width: 768px){
+   .intro{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+   }
+   .intro h2{
+      font-family: 'Titulo';
+      font-size: 2rem;
+   }
+   .intro__image{
+      display: block;
+   }
+}

@@ -1,4 +1,4 @@
-import tamales from '../assets/imgs/tamales_bg.jpg'
+import tamales from '../assets/imgs/img-tamales-1.jpg'
 
 const Intro = () =>(
    <div className="intro wrapp">
