@@ -1,0 +1,70 @@
+:root{
+   --max-width: 1100px;
+   --font-size: 18px;
+   --color-first:;
+   --color-second:;
+   --background-main-color: #b4b400;
+}
+@font-face {
+   font-family: 'Title';
+   src: url('../fonts/Lato-Bold.ttf');
+}
+@font-face {
+   font-family: 'Text';
+   src: url('../fonts/Lato-Regular.ttf');
+}
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   min-height: 100vh;
+   font-family: 'Text';
+   color: var(--color-principal);
+   background-color: var(--background-main-color);
+}
+img, picture, video, iframe, figure{
+   max-width: 100%;
+   width: 100%;
+   height: auto;
+   display: block;
+}
+a{
+   display: block;
+}
+li{
+   list-style: none;
+}
+svg{
+   width: 100%;
+   display: block;
+   fill: currentColor;
+}
+h1, h2, h3, h4, h5, h6,
+p, a, b, u, i, em,
+span, strong, blockquote{
+   font-size: 1rem;
+   font-weight: inherit;
+   font-style: inherit;
+   text-decoration: none;
+   color: inherit;
+}
+.wrapp{
+   width: 85%;
+   margin: 0 auto;
+   
+   @media(min-width: 768px){
+      width: 100%;
+      max-width: var(--max-width);
+   }
+}
