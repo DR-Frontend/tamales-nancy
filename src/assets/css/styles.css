@@ -9,6 +9,23 @@
 
 
 
+/* HOME ===== */
+.home__order{
+   padding: 20px 0;
+}
+.home__order-txt{
+   text-align: center;
+}
+@media(min-width: 768px){
+   .home__order{
+      display: grid;
+      grid-template-columns: 1fr 30%;
+      align-items: center;
+   }
+}
+
+
+
 /* INTRO ===== */
 .intro__image{
    display: none;
@@ -16,15 +33,17 @@
 @media(min-width: 768px){
    .intro{
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr 35%;
       align-items: center;
    }
-   .intro h2{
-      font-family: 'Titulo';
-      font-size: 2rem;
+   .intro__text{
+      padding-right: 20px;
    }
    .intro__image{
       display: block;
+   }
+   .intro__image img{
+      border-radius: 15px;
    }
 }
 
