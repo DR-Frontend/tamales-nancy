@@ -1,6 +1,10 @@
-/* MENU ===== */
+/* HEADER ===== */
+.header{
+   padding: 5px 0;
+   background-color: var(--first-color);
+}
 .menu__img{
-   height: 100px;
+   height: 70px;
 }
 
 
@@ -22,4 +26,11 @@
    .intro__image{
       display: block;
    }
+}
+
+
+
+/* FOOTER ===== */
+.footer{
+   background-color: var(--second-color);
 }

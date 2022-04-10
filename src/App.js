@@ -3,6 +3,7 @@ import './assets/css/styles.css'
 import Header from './components/Header';
 import Carrusel from './components/Carrusel';
 import Intro from './components/Intro';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Carrusel />
       <Intro />
+      <Footer />
     </>
   );
 }
