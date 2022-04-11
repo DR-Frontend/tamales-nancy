@@ -27,9 +27,10 @@
 
 
 /* INTRO ===== */
-.intro__image{
-   display: none;
+.intro__text{
+   text-align: center;
 }
+
 @media(min-width: 768px){
    .intro{
       display: grid;
@@ -37,7 +38,7 @@
       align-items: center;
    }
    .intro__text{
-      padding-right: 20px;
+      padding: 50px;
    }
    .intro__image{
       display: block;
@@ -49,7 +50,34 @@
 
 
 
+/* MAIN ===== */
+.main__lists{
+   text-align: center;
+}
+.main__lists-tamales{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+   margin: 20px 0;
+}
+.tamal{
+   display: grid;
+   grid-template-columns: 70% 30%;
+   border: 1px solid var(--first-color-modal);
+   border-radius: 10px;
+   overflow: hidden;
+}
+.tamal__txt{
+   display: grid;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+}
+
+
+
+
 /* FOOTER ===== */
 .footer{
-   background-color: var(--second-color);
+   background-color: var(--first-color);
+   color: var(--background-main-color);
 }

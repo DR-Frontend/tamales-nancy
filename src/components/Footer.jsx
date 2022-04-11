@@ -1,6 +1,8 @@
 const Footer = ()=>(
    <footer id="footer" className="footer">
-      <h2>Footer!</h2>
+      <div className="wrapp">
+         <h2>Footer</h2>
+      </div>
    </footer>
 )
 

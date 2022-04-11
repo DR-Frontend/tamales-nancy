@@ -4,6 +4,7 @@
    --font-color: #454545;
    --first-color: #8d5d33;
    --second-color: #b4b400;
+   --first-color-modal: rgba(141, 93, 51, .3);
    --background-main-color: #e0e0e0;
 }
 *{
