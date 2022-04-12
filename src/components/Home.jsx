@@ -10,7 +10,7 @@ const Home = () =>(
             <p>¡Con gusto lo atenderemos!<br/> Envíenos un email y nos pondermos en contacto con usted.</p>
          </div>
          <div className="home__order-btn">
-            <a href="mailto:tamales.madrina.nancy@gmail.com" target="_blank" className="btn">Hacer un Pedido</a>
+            <a href="mailto:tamales.madrina.nancy@gmail.com" target="_blank" rel="noreferrer" className="btn">Hacer un Pedido</a>
          </div>
       </div>
    </div>
