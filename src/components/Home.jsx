@@ -1,8 +1,8 @@
 const Home = () =>(
    <div className="home">
       <picture>
-         <source media="(max-width:768px)" srcset="https://placeimg.com/450/300/sepia" />
-         <img src="https://placeimg.com/1000/300/sepia" alt=""/>
+         <source media="(max-width:768px)" srcset="https://placeimg.com/450/300/animals" />
+         <img src="https://placeimg.com/1000/300/animals" alt=""/>
       </picture>
       <div className="home__order wrapp">
          <div className="home__order-txt">

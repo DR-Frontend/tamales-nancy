@@ -1,8 +1,7 @@
 const Main = ()=>(
    <main id="main" className="main">
       <div className="main__lists wrapp">
-         <h2>TAMALES DE 'CAZUELA'</h2>
-         <p>¿Por qué de Cazuela? Así es llamado el estilo con el que nuestra querida 'Madrina Nancy' prepara sus tamales. La receta secreta con la que niños y adultos se han deleitado con estos tamales desde 1972 hasta la actualidad.</p>
+         <h2>MENÚ DE TAMALES</h2>
          <div className="main__lists-tamales">
             <div className="tamal">
                <div className="tamal__txt">
@@ -82,7 +81,7 @@ const Main = ()=>(
                <li className="main__lists-li">
                   <h2>Chilaquiles</h2>
                   <p><span>Para empezar "bravo" el día.</span></p>
-                  <p>Exquisita variedad de atoles para acompañar sus tamales: Cajeta, Piloncillo, Champurrado, Arroz y Fresa.</p>
+                  <p>Bien picositos ya sean Rojos o Verdes. Con su respectiva cebolla, crema, queso y huevo (o bistec) al gusto.</p>
                </li>
                <li className="main__lists-li">
                   <h2>Huevos al gusto</h2>
@@ -92,7 +91,7 @@ const Main = ()=>(
                <li className="main__lists-li">
                   <h2>Sincronizadas</h2>
                   <p><span>Para los que comen "ligero".</span></p>
-                  <p>Con jamón, queso oaxaca y salsa verde/roja. Pedirás más de 1 orden.</p>
+                  <p>Con jamón, queso oaxaca y salsa verde/roja. Pedirás más de una orden.</p>
                </li>
                <li className="main__lists-li">
                   <h2>Tacos Dorados</h2>
