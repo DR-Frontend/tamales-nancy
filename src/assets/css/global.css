@@ -5,7 +5,7 @@
    --first-color: #8d5d33;
    --second-color: #b4b400;
    --first-color-modal: rgba(141, 93, 51, .3);
-   --background-main-color: #e0e0e0;
+   --background-main-color: #eaeaea;
 }
 *{
    margin: 0;
@@ -57,10 +57,11 @@ h2{
    font-family: 'Lato', sans-serif;
    font-weight: 700;
    text-transform: uppercase;
+   font-size: 1.4rem;
 }
 @media(min-width:768px){
    h2{
-      font-size: 1.4rem;
+      font-size: 1.7rem;
    }
 }
 .btn{
