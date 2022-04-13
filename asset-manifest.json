@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3354cb08.css",
+    "main.js": "/static/js/main.9baf6d7d.js",
+    "static/js/787.782e512a.chunk.js": "/static/js/787.782e512a.chunk.js",
+    "static/media/cooking.mp4": "/static/media/cooking.ff9fac249837b880cebf.mp4",
+    "static/media/logo.png": "/static/media/logo.d2c977e0cfb2aea9d28d.png",
+    "static/media/img-tamales-1.jpg": "/static/media/img-tamales-1.7917282cf81c2a705afd.jpg",
+    "static/media/logo-trazos.svg": "/static/media/logo-trazos.43bfb2425c632123962660dffc3d65d7.svg",
+    "static/media/tamal-mole.jpg": "/static/media/tamal-mole.267e4e957507b7b764e4.jpg",
+    "static/media/tamal-verde.jpg": "/static/media/tamal-verde.ee374dd2646723c11ec4.jpg",
+    "static/media/tamal-dulce.jpg": "/static/media/tamal-dulce.d94ecb830a33b78c8aae.jpg",
+    "static/media/tamal-rajas.jpg": "/static/media/tamal-rajas.0400a164d864711c76e3.jpg",
+    "static/media/tamal-champi.jpg": "/static/media/tamal-champi.87e35250464e3237616a.jpg",
+    "static/media/tamal-zarza.jpg": "/static/media/tamal-zarza.827eedfecba3fab4f84a.jpg",
+    "static/media/icon-whatsapp.svg": "/static/media/icon-whatsapp.f4a902142dfa6be38c0622d0a07c1b3d.svg",
+    "index.html": "/index.html",
+    "static/media/icon-maps.svg": "/static/media/icon-maps.180b1d05643fd8eeb9599e75e53efc6b.svg",
+    "static/media/icon-facebook.svg": "/static/media/icon-facebook.14665ff60a0c77a0b1a6fe9ff327d48d.svg",
+    "main.3354cb08.css.map": "/static/css/main.3354cb08.css.map",
+    "main.9baf6d7d.js.map": "/static/js/main.9baf6d7d.js.map",
+    "787.782e512a.chunk.js.map": "/static/js/787.782e512a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3354cb08.css",
+    "static/js/main.9baf6d7d.js"
+  ]
+}
