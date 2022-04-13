@@ -87,7 +87,7 @@ h2{
    margin: 0 auto;
 }   
 @media(min-width: 768px){
-   .warpp{
+   .wrapp{
    width: 100%;
    max-width: var(--max-width);
    }

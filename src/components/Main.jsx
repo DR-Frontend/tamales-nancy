@@ -1,3 +1,10 @@
+import champi from "../assets/imgs/tamal-champi.jpg"
+import verde from "../assets/imgs/tamal-verde.jpg"
+import rajas from "../assets/imgs/tamal-rajas.jpg"
+import mole from "../assets/imgs/tamal-mole.jpg"
+import dulce from "../assets/imgs/tamal-dulce.jpg"
+import zarza from "../assets/imgs/tamal-zarza.jpg"
+
 const Main = ()=>(
    <main id="main" className="main">
       <div className="main__lists wrapp">
@@ -7,50 +14,50 @@ const Main = ()=>(
                <div className="tamal__txt">
                   <h2>Champiñones</h2>
                   <p><span>Para los Aventureros.</span></p><br/>
-                  <p>Relleno con champiñones y queso</p>
+                  <p>Relleno con champiñones y queso. Una nueva variedad para los paladares más atrevidos.</p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={champi} alt="" />
                </div>
             </div>
             <div className="tamal">
                <div className="tamal__txt">
                   <h2>Verdes</h2>
                   <p><span>Para los Clásicos.</span></p><br/>
-                  <p>Rellenos con carne de cerdo y salsa verde.</p>
+                  <p>Rellenos con carne de cerdo y salsa verde. Nuestro tamal más tradicional para el día a día.</p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={verde} alt="" />
                </div>
             </div>
             <div className="tamal">
                <div className="tamal__txt">
                   <h2>Rajas</h2>
                   <p><span>Para los Valientes.</span></p><br/>
-                  <p>Rellenos con unas picositas rajas y queso.</p>
+                  <p>Rellenos con unas picositas rajas y queso. Solo nuestros clientes más osados se atreven a este reto.</p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={rajas} alt="" />
                </div>
             </div>
             <div className="tamal">
                <div className="tamal__txt">
                   <h2>Mole</h2>
                   <p><span>Para los Variados.</span></p><br/>
-                  <p>Rellenos de carne de cerdo con salsa de guajillo.</p>
+                  <p>Rellenos con carne de cerdo y salsa de guajillo. Uno más para nuestros comensales valientes.</p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={mole} alt="" />
                </div>
             </div>
             <div className="tamal">
                <div className="tamal__txt">
                   <h2>Dulce rojo/piña</h2>
                   <p><span>Para los Dulces.</span></p><br/>
-                  <p>Rellenos de pasas o piña. Perfectos como "postre".</p>
+                  <p>Rellenos con pasas o piña. Perfectos para el "postre" después de una buena tandada de tamales.</p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={dulce} alt="" />
                </div>
             </div>
             <div className="tamal">
@@ -60,7 +67,7 @@ const Main = ()=>(
                   <p>¿Deseas algo nuevo? Hacemos el tamal que tú desees: Zarzamora, Carlos V, Philadephia, etc. </p>
                </div>
                <div className="tamal__img">
-                  <img src="https://placeimg.com/125/200/animals" alt="" />
+                  <img src={zarza} alt="" />
                </div>
             </div>
          </div>
@@ -96,7 +103,7 @@ const Main = ()=>(
                <li className="main__lists-li">
                   <h2>Tacos Dorados</h2>
                   <p><span>Para recargar "el tanque".</span></p>
-                  <p>Picadillo, pollo, queso, jamón o papa con queso; y su respectiva crema, lechuga, queso y salsa verde/roja.</p>
+                  <p>Picadillo, pollo, queso, jamón, papa con queso y su respectiva crema, lechuga, queso y salsa verde/roja.</p>
                </li>
             </ul>
          </div>

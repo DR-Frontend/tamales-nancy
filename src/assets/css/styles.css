@@ -31,6 +31,9 @@
 
 
 /* INTRO ===== */
+.intro{
+   margin: 50px auto;
+}
 .intro__text{
    text-align: center;
 }
@@ -117,7 +120,8 @@
 }
 @media(min-width: 768px){
    .main__video iframe{
-      width: 70%;
+      width: 60%;
+      height: 400px;
       margin: 0 auto;
    }
 }

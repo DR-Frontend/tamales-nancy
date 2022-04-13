@@ -9,7 +9,8 @@ const Footer = ()=>(
          <div className="footer__order">
             <img src={logo_trazos} alt="" />
             <h2>¿LISTO PARA HACER SU PEDIDO?</h2>
-            <p>Con gusto atenderemos sus pedidos para sus eventos. ¿Día de la Candelaria?, ¿Posadas de Diciembre? o ¿debe alguna apuesta?, no se preocupe... los tamales de 'La Madrina Nancy' entrarán al rescate!.</p><br/>
+            <p>Con gusto atenderemos sus pedidos para sus eventos.<br/>
+            ¿Día de la Candelaria? ¿Posadas de Diciembre? o ¿debe alguna apuesta?, no se preocupe... los tamales de 'La Madrina Nancy' entrarán al rescate!.</p><br/>
             <a href="mailto:tamales.madrina.nancy@gmail.com" target="_blank" rel="noreferrer" className="btn">Hacer un Pedido</a>
          </div>
          <div className="footer__contact">
@@ -18,8 +19,8 @@ const Footer = ()=>(
                <a href="https://api.whatsapp.com/send?phone=+5215587237751" target="_blank" rel="noreferrer"><img src={whatsapp} alt="" /></a>
                <a href="https://goo.gl/maps/Z55HqGBXpmW2Sn1e6" target="_blank" rel="noreferrer"><img src={maps} alt="" /></a>
             </div>
-            <p>©2022 - Todos los derechos reservados.</p>
             <p>- ¡Negocio Orgullosamente Mexicano! -</p>
+            <p>©2022 - Todos los derechos reservados.</p>
          </div>
       </div>
    </footer>
