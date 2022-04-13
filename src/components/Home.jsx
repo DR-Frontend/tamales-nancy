@@ -1,9 +1,16 @@
+import video from "../assets/video/cooking.mp4"
+import logo from '../assets/imgs/logo.png'
+
 const Home = () =>(
    <div className="home">
-      <picture>
-         <source media="(max-width:768px)" srcset="https://placeimg.com/450/300/animals" />
-         <img src="https://placeimg.com/1000/300/animals" alt=""/>
-      </picture>
+      <div className="home__video">
+         <div className="home__video-txt">
+            <img src={logo} alt="" /><br/>
+            <h2>Con el permiso divino para cocinar</h2>
+         </div>
+         <video src={video} autoPlay muted loop typeof="video/mp4"></video>
+         <div className="home__video-layer"></div>
+      </div>
       <div className="home__order wrapp">
          <div className="home__order-txt">
             <h2>¿Quiere un Pedido para sus eventos?</h2>

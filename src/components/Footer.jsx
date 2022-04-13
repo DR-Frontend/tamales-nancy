@@ -10,7 +10,7 @@ const Footer = ()=>(
             <img src={logo_trazos} alt="" />
             <h2>¿LISTO PARA HACER SU PEDIDO?</h2>
             <p>Con gusto atenderemos sus pedidos para sus eventos.<br/>
-            ¿Día de la Candelaria? ¿Posadas de Diciembre? o ¿debe alguna apuesta?, no se preocupe... los tamales de 'La Madrina Nancy' entrarán al rescate!.</p><br/>
+            ¿Día de la Candelaria? ¿Posadas de Diciembre? o ¿debe alguna apuesta?, no se preocupe!... los tamales de 'La Madrina Nancy' entrarán al rescate!.</p><br/>
             <a href="mailto:tamales.madrina.nancy@gmail.com" target="_blank" rel="noreferrer" className="btn">Hacer un Pedido</a>
          </div>
          <div className="footer__contact">
