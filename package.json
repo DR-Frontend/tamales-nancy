@@ -1,5 +1,6 @@
 {
   "name": "tamales-nancy",
+  "homepage": "https://dr-frontend.github.io/tamales-nancy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
